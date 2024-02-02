@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@300;700&family=Roboto:wght@400;500&family=Rubik:wght@500&family=Salsa&display=swap');
+
+body{
+    background-color: rgb(131, 36, 171);
+    text-align: center;
+    font-family: 'Rubik', sans-serif;
+}
+h1{
+    margin: 20px;
+}
+
+.container{
+    height: 70vh;
+    display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.game{
+   height: 65vh;
+   width: 35vw;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   align-items: center;
+   gap: 8px;
+}
+.box{
+   height: 20vh;
+   width: 10vw;
+   border-radius:8px;
+   border: none;
+   box-shadow: 5px 5px 8px rgb(8, 0, 52);
+   font-size: 8vh;
+   background-color: beige;
+   color: black;
+}
+.resetbtn{
+    height: 10vh;
+    width: 20vh;
+    background-color: rgb(71, 197, 255);
+    border-radius: 8px;
+    border: none;
+    font-size: 5vh;
+    box-shadow: 5px 5px 8px rgb(8, 0, 52);
+}
+.msg-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+#new-btn{
+    height: 10vh;
+    width: 20vh;
+    background-color: rgb(71, 197, 255);
+    border-radius: 8px;
+    border: none;
+    font-size: 3vmin;
+    box-shadow: 5px 5px 8px rgb(8, 0, 52);
+}
+.hide{
+    display: none;
+}
+#msg{
+    font-size: 8vh;
+}
