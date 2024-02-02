@@ -24,10 +24,10 @@ const restgame = () => {
 boxes.forEach((box) => {
     box.addEventListener("click", () => {
         if (turnO === true) {
-            box.innerHTML = "x"
+            box.innerHTML = "O"
             turnO = false;
         } else {
-            box.innerHTML = "o"
+            box.innerHTML = "X"
             turnO = true;
         }
         box.disabled = true;
